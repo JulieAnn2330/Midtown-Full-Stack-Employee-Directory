@@ -41,6 +41,22 @@ export default class TableArea extends Component {
         }
       };
 
+      handleNameChange = (event) => {
+        const name = event.target.value;
+        if (name === "All") {
+          this.setState({ employees: this.state.allEmployees });
+        } else {
+          this.setState({
+            employees: this.state.allEmployees.filter(function (employee) {
+              if (employee.name === name) {
+                return true;
+              }
+              return false;
+            }),
+          });
+        }
+      };
+
     sortByHireDate = event => {
         const hireDate = event.target.value;
         if (hireDate === "oldest") {
@@ -69,6 +85,24 @@ export default class TableArea extends Component {
         return (
             <div>
                <div>
+          <label htmlFor="name">Filter by Name:</label>
+          <select onChange={this.handleNameChange} id="name">
+            <option value="All">All</option>
+            <option value="Alex Jones">Alex Jones</option>
+            <option value="Aurora Brune">Aurora Brune</option>
+            <option value="Cameron Smith">Cameron Smith</option>
+            <option value="Charlie Wilson">Charlie Wilson</option>
+            <option value="Julie Schaub">Julie Schaub</option>
+            <option value="Hayden Fisher">Hayden Fisher</option>
+            <option value="Jordan Larson">Jordan Larson</option>
+            <option value="Kelly Brown">Kelly Brown</option>
+            <option value="Mac Nelson">Mac Nelson</option>
+            <option value="Morgan Anderson">Morgan Anderson</option>
+            <option value="Nic O'Leary">Nic O'Leary</option>
+            <option value="Sam Christensen">Sam Christensen</option>
+            <option value="Teddy Young">Teddy Young</option>
+           </select>
+          
           <label htmlFor="department">Filter by Department:</label>
           <select onChange={this.handleDepartmentChange} id="department">
             <option value="All">All</option>
