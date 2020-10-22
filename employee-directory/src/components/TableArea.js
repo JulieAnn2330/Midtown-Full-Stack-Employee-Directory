@@ -112,6 +112,7 @@ export default class TableArea extends Component {
             <option value="Technology">Technology</option>
           </select>
         </div>
+
                 <div>
                     <label htmlFor="hireDate">Sort by hire date:</label>
                     <select onChange={this.sortByHireDate}>
