@@ -1,0 +1,11 @@
+.header {
+    text-align: center;
+  }
+
+  .jumbotron {
+      background-color: navy !important;
+  }
+
+  .header {
+      color: white;
+  }

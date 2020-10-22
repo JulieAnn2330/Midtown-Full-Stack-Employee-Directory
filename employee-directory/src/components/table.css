@@ -1,0 +1,53 @@
+table {
+    font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+    text-align: center;
+    width: 100%;
+    border-collapse: collapse;
+}
+
+thead th {
+    text-align: center;
+    border-bottom: 2px solid gray;
+}
+
+thead button {
+    border: 0;
+    border-radius: none;
+    font-family: inherit;
+    font-weight: 700;
+    font-size: inherit;
+    padding: 0.5em;
+    margin-bottom: 1px;
+}
+
+thead button.ascending::after {
+    content: '↓';
+    display: inline-block;
+    margin-left: 1em;
+}
+
+thead button.descending::after {
+    content: '↑';
+    display: inline-block;
+    margin-left: 1em;
+}
+
+tbody td {
+    padding: 0.5em;
+    border-bottom: 1px solid gray;
+}
+
+tbody tr:hover {
+    background-color: #eee;
+}
+
+.input {
+    border: 'solid';
+    border-radius: '10px';
+    position: 'relative';
+    margin-left: '100px';
+    height: '50px';
+    width: '200px';
+    margin-top: '200px';
+    margin-bottom: '200px'
+}

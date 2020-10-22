@@ -1,4 +1,4 @@
-import React, {State} from 'react';
+import React, {useState} from 'react';
 import Jumbotron from 'react-bootstrap/Jumbotron';
 import Layout from './components/Layout';
 import Navigation from './components/Navigation';
@@ -11,8 +11,8 @@ const [ searchTerm, setSearchTerm ] = useState('');
 const [ sorted, setSorted ] = useState(false);
 const [ data, setStaff ] = useState(staff);
 
-function handleSearchTerm(e) {
-  setSearchTerm(e.target.value)
+function handleSearchTerm(event) {
+  setSearchTerm(event.target.value)
 }
 
 function handleSortByName() {
@@ -25,7 +25,7 @@ function handleSortByName() {
   }
 }
 
-function handleSortByDept() {
+function handleSortByDepartment() {
   if (!sorted) {
     setStaff(data.sort((a, b) => (a.department > b.department) ? 1 : -1 ));
     setSorted(true);
