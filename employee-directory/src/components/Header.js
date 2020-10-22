@@ -1,11 +1,11 @@
 import React from 'react';
 
-function Navigation() {
+function Header() {
     return (
-        <div className="Navigation">
+        <div>
             <h1>Midtown Full Stack Employee Directory</h1>
         </div>
     );
 }
 
-export default Navigation;
+export default Header;

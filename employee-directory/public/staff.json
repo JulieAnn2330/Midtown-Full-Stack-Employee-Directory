@@ -1,13 +1,13 @@
 [
     {
-      "id": 1,
+      "id": "1",
       "name": "Julie Schaub",
       "title": "Chief Executive Officer",
       "email": "jschaub@midtownfullstack.com",
       "extension": "1000",
       "department": "Executive",
       "supervisor": "null",
-      "hireDate": "01/05/2005"
+      "hireDate": "01-05-2005"
     },
     {
         "id": 2,
@@ -17,7 +17,7 @@
         "extension": "1001",
         "department": "Accounting",
         "supervisor": "Aurora Brune",
-        "hireDate": "02/10/2005"
+        "hireDate": "02-10-2005"
     },
     {
         "id": 3,
@@ -27,7 +27,7 @@
         "extension": "1002",
         "department": "Technology",
         "supervisor": "Aurora Brune",
-        "hireDate": "02/15/2005"
+        "hireDate": "02-15-2005"
     },
     {
         "id": 4,
@@ -37,7 +37,7 @@
         "extension": "1003",
         "department": "Art & Editorial",
         "supervisor": "Jordan Larson",
-        "hireDate": "01/20/2005"
+        "hireDate": "01-20-2005"
     },
     {
         "id": 5,
@@ -47,7 +47,7 @@
         "extension": "1004",
         "department": "Technology",
         "supervisor": "Cameron Smith",
-        "hireDate": "01/22/2007"
+        "hireDate": "01-22-2007"
     },
     {
         "id": 6,
@@ -57,7 +57,7 @@
         "extension": "1005",
         "department": "Accounting",
         "supervisor": "Alex Jones",
-        "hireDate": "10/2/2006"
+        "hireDate": "10-2-2006"
     },
     {
         "id": 7,
@@ -67,7 +67,7 @@
         "extension": "1006",
         "department": "Technology",
         "supervisor": "Cameron Smith",
-        "hireDate": "03/17/2007"
+        "hireDate": "03-17-2007"
     },
     {
         "id": 8,
@@ -77,7 +77,7 @@
         "extension": "1007",
         "department": "Art & Editorial",
         "supervisor": "Aurora Brune",
-        "hireDate": "04/30/2009"
+        "hireDate": "04-30-2009"
     },
     {
         "id": 9,
@@ -87,17 +87,17 @@
         "extension": "1008",
         "department": "Art & Editorial",
         "supervisor": "Jordan Larson",
-        "hireDate": "08/20/2005"
+        "hireDate": "08-20-2005"
     },
     {
         "id": 10,
         "name": "Mac Nelson",
         "title": "Software Developer",
-        "email": "jschaub@midtownfullstack.com",
+        "email": "mnelson@midtownfullstack.com",
         "extension": "1009",
         "department": "Technology",
         "supervisor": "Cameron Smith",
-        "hireDate": "11/25/2007"
+        "hireDate": "11-25-2007"
     },
     {   "id": 11,
         "name": "Morgan Anderson",
@@ -106,26 +106,26 @@
         "extension": "1010",
         "department": "Technology",
         "supervisor": "Cameron Smith",
-        "hireDate": "06/15/2006"
+        "hireDate": "06-15-2006"
     },
     {
         "id": 12,
         "name": "Kelly Brown",
         "title": "IT Specialist",
-        "email": "jschaub@midtownfullstack.com",
+        "email": "kbrown@midtownfullstack.com",
         "extension": "1011",
         "department": "Technology",
         "supervisor": "Cameron Smith",
-        "hireDate": "02/17/2009"
+        "hireDate": "02-17-2009"
     },
     {
         "id": 13,
         "name": "Aurora Brune",
         "title": "Chief Operating Officer",
-        "email": "jschaub@midtownfullstack.com",
+        "email": "abrune@midtownfullstack.com",
         "extension": "1012",
         "department": "Executive",
         "supervisor": "Julie Schaub",
-        "hireDate": "01/07/2005"
+        "hireDate": "01-07-2005"
     }
   ] 
