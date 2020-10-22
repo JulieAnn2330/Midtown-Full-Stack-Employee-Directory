@@ -41,21 +41,21 @@ export default class TableArea extends Component {
         }
       };
 
-    sortByDateofBirth = event => {
-        const dob = event.target.value;
-        if (dob === "oldest") {
+    sortByHireDate = event => {
+        const hireDate = event.target.value;
+        if (hireDate === "oldest") {
             this.setState({
                 employees: this.state.employees.sort(function (a, b) {
-                    var dateA = new Date(a.dob).getTime();
-                    var dateB = new Date(b.dob).getTime();
+                    var dateA = new Date(a.hireDate).getTime();
+                    var dateB = new Date(b.hireDate).getTime();
                     return dateA > dateB ? 1: -1;
                 }),
             });
-        } else if (dob === "youngest") {
+        } else if (hireDate === "newest") {
             this.setState({
                 employees: this.state.employees.sort(function (a, b) {
-                    var dateA = new Date(a.dob).getTime();
-                    var dateB = new Date(b.dob).getTime();
+                    var dateA = new Date(a.hireDate).getTime();
+                    var dateB = new Date(b.hireDate).getTime();
                     return dateA < dateB ? 1: -1
                 }),
             });
@@ -79,11 +79,11 @@ export default class TableArea extends Component {
           </select>
         </div>
                 <div>
-                    <label htmlFor="dob">Sort by date of birth:</label>
-                    <select onChange={this.sortByDateofBirth}>
+                    <label htmlFor="hireDate">Sort by hire date:</label>
+                    <select onChange={this.sortByHireDate}>
                         <option value="default">Default</option>
-                        <option value="oldest">Oldest to Youngest</option>
-                        <option value="youngets">Youngest to Oldest</option>
+                        <option value="oldest">Oldest to Newest</option>
+                        <option value="newest">Newest to Oldest</option>
                     </select>
                 </div>
                 <table className="table table-striped table-hover">
@@ -96,7 +96,7 @@ export default class TableArea extends Component {
                             <th>Extension</th>
                             <th>Department</th>
                             <th>Supervisor</th>
-                            <th>Date of Birth</th>
+                            <th>Hire Date</th>
                         </tr>
                     </thead>
                     <tbody>
@@ -110,7 +110,7 @@ export default class TableArea extends Component {
                                     <td>{employee.extension}</td>
                                     <td>{employee.department}</td>
                                     <td>{employee.supervisor}</td>
-                                    <td>{employee.dob}</td>
+                                    <td>{employee.hireDate}</td>
                                 </tr>
                             );
                         })}
