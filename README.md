@@ -28,7 +28,16 @@
 <hr color= "slateblue" noshade>
 
 <h3 id='description'>Description of Project</h3>
-<p>This project allows employees in a company to view non-sensitive information about company employees. The directory can be sorted by Hire Date (from oldest to newest or the reverse) and can be filtered by both Employee Name and Department. This was a homework project for the University of Kansas Full Stack Boot Camp.  I learned a lot about working with React during this project. We were not shown any class activities that involved tables, searches that didn't involve an API call or sorting, so I spent several hours on Google learning how to do that and scrapped two other tables before completing the assignment. The simplistic styling of the directory and the sort and filter features really make this project stand out. </p><br>
+<p>This project allows employees in a company to view non-sensitive information about company employees. The directory can be sorted by Hire Date (from oldest to newest or the reverse) and can be filtered by both Employee Name and Department. This was a homework project for the University of Kansas Full Stack Boot Camp.  I learned a lot about working with React during this project. We were not shown any class activities that involved tables, searches that didn't involve an API call or sorting, so I spent several hours on Google learning how to do that and scrapped two other tables before completing the assignment. The simplistic styling of the directory and the sort and filter features really make this project stand out.
+
+This project has been added to my professional portfolio, the link can be found here:
+
+<a href="https://powerful-journey-53780.herokuapp.com/">Julie Schaub Professional Portfolio</a>
+
+The link to the deployed app can be found here:
+
+<a href="https://cryptic-sands-27710.herokuapp.com/?id=5f7e298bc8df200017c17715">Workout Tracker Deployed Heroku Application</a>
+</p><br>
 <a href="#top" id="start">(Back to Top of Page)</a><br>
 <br>
 <hr color= "slateblue" noshade>
