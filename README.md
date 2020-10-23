@@ -36,7 +36,7 @@ This project has been added to my professional portfolio, the link can be found 
 
 The link to the deployed app can be found here:
 
-<a href="https://cryptic-sands-27710.herokuapp.com/?id=5f7e298bc8df200017c17715">Workout Tracker Deployed Heroku Application</a>
+<a href="https://julieann2330.github.io/Midtown-Full-Stack-Employee-Directory/">Midtown Full Stack Technologies Employee Directory</a>
 </p><br>
 <a href="#top" id="start">(Back to Top of Page)</a><br>
 <br>
