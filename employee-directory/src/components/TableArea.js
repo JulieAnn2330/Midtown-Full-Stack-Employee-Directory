@@ -9,10 +9,11 @@ export default class TableArea extends Component {
     headings = ["name..."];
 
     componentDidMount() {
-        fetch('/staff.json')
+        fetch('/api/employees.json')
         .then(function (response) {
             return response.json();
         })
+        
         .then((response) => {
             this.setState({
                 employees: response,
