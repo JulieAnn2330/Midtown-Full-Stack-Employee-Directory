@@ -1,0 +1,131 @@
+[
+    {
+      "id": "1",
+      "name": "Julie Schaub",
+      "title": "Chief Executive Officer",
+      "email": "jschaub@midtownfullstack.com",
+      "extension": "1000",
+      "department": "Executive",
+      "supervisor": "null",
+      "hireDate": "01-05-2005"
+    },
+    {
+        "id": 2,
+        "name": "Alex Jones",
+        "title": "Vice President - Finance",
+        "email": "ajones@midtownfullstack.com",
+        "extension": "1001",
+        "department": "Accounting",
+        "supervisor": "Aurora Brune",
+        "hireDate": "02-10-2005"
+    },
+    {
+        "id": 3,
+        "name": "Cameron Smith",
+        "title": "Vice President - Software",
+        "email": "csmith@midtownfullstack.com",
+        "extension": "1002",
+        "department": "Technology",
+        "supervisor": "Aurora Brune",
+        "hireDate": "02-15-2005"
+    },
+    {
+        "id": 4,
+        "name": "Charlie Wilson",
+        "title": "Editor",
+        "email": "cwilson@midtownfullstack.com",
+        "extension": "1003",
+        "department": "Art & Editorial",
+        "supervisor": "Jordan Larson",
+        "hireDate": "01-20-2005"
+    },
+    {
+        "id": 5,
+        "name": "Sam Christensen",
+        "title": "Software Developer",
+        "email": "schristensen@midtownfullstack.com",
+        "extension": "1004",
+        "department": "Technology",
+        "supervisor": "Cameron Smith",
+        "hireDate": "01-22-2007"
+    },
+    {
+        "id": 6,
+        "name": "Nic O'Leary",
+        "title": "Accounts Payable",
+        "email": "noleary@midtownfullstack.com",
+        "extension": "1005",
+        "department": "Accounting",
+        "supervisor": "Alex Jones",
+        "hireDate": "10-02-2006"
+    },
+    {
+        "id": 7,
+        "name": "Teddy Young",
+        "title": "Software Developer",
+        "email": "tyoung@midtownfullstack.com",
+        "extension": "1006",
+        "department": "Technology",
+        "supervisor": "Cameron Smith",
+        "hireDate": "03-17-2007"
+    },
+    {
+        "id": 8,
+        "name": "Jordan Larson",
+        "title": "Vice-President - Art & Editorial",
+        "email": "jlarson@midtownfullstack.com",
+        "extension": "1007",
+        "department": "Art & Editorial",
+        "supervisor": "Aurora Brune",
+        "hireDate": "04-30-2009"
+    },
+    {
+        "id": 9,
+        "name": "Hayden Fisher",
+        "title": "Staff Writer",
+        "email": "hfisher@midtownfullstack.com",
+        "extension": "1008",
+        "department": "Art & Editorial",
+        "supervisor": "Jordan Larson",
+        "hireDate": "08-20-2005"
+    },
+    {
+        "id": 10,
+        "name": "Mac Nelson",
+        "title": "Software Developer",
+        "email": "mnelson@midtownfullstack.com",
+        "extension": "1009",
+        "department": "Technology",
+        "supervisor": "Cameron Smith",
+        "hireDate": "11-25-2007"
+    },
+    {   "id": 11,
+        "name": "Morgan Anderson",
+        "title": "Product Manager",
+        "email": "manderson@midtownfullstack.com",
+        "extension": "1010",
+        "department": "Technology",
+        "supervisor": "Cameron Smith",
+        "hireDate": "06-15-2006"
+    },
+    {
+        "id": 12,
+        "name": "Kelly Brown",
+        "title": "IT Specialist",
+        "email": "kbrown@midtownfullstack.com",
+        "extension": "1011",
+        "department": "Technology",
+        "supervisor": "Cameron Smith",
+        "hireDate": "02-17-2009"
+    },
+    {
+        "id": 13,
+        "name": "Aurora Brune",
+        "title": "Chief Operating Officer",
+        "email": "abrune@midtownfullstack.com",
+        "extension": "1012",
+        "department": "Executive",
+        "supervisor": "Julie Schaub",
+        "hireDate": "01-07-2005"
+    }
+  ] 
