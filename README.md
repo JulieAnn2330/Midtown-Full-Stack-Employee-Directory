@@ -34,7 +34,7 @@
 <hr color= "slateblue" noshade>
 
 <h3 id='techology'>Technologies Used</h3>
-<p>This project incoporates the following tecnologies:<br>
+<p>This project incoporates the following technologies:<br>
 </p>React<br>
 <a href="#top" id="start">(Back to Top of Page)</a><br>
 <br>
