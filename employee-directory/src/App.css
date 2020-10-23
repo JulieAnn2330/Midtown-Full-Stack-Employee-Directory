@@ -39,7 +39,6 @@ html{
     background-color: lightgray;
 }
 
-logo {
-    width: 100px;
-    height: 100px;
+.Footer {
+    margin-top: 30px;
 }
