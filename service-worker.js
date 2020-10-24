@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/Midtown-Full-Stack-Employee-Directory/precache-manifest.2edb69e18b915763baff62d8a0c49d52.js"
+  "/Midtown-Full-Stack-Employee-Directory/precache-manifest.e0a619bc804c216d833fc5c48be5b5a7.js"
 );
 
 self.addEventListener('message', (event) => {

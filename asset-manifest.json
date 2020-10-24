@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/Midtown-Full-Stack-Employee-Directory/static/css/main.5144ba18.chunk.css",
-    "main.js": "/Midtown-Full-Stack-Employee-Directory/static/js/main.964f813f.chunk.js",
-    "main.js.map": "/Midtown-Full-Stack-Employee-Directory/static/js/main.964f813f.chunk.js.map",
+    "main.css": "/Midtown-Full-Stack-Employee-Directory/static/css/main.9186a710.chunk.css",
+    "main.js": "/Midtown-Full-Stack-Employee-Directory/static/js/main.6d85b325.chunk.js",
+    "main.js.map": "/Midtown-Full-Stack-Employee-Directory/static/js/main.6d85b325.chunk.js.map",
     "runtime-main.js": "/Midtown-Full-Stack-Employee-Directory/static/js/runtime-main.6f57e014.js",
     "runtime-main.js.map": "/Midtown-Full-Stack-Employee-Directory/static/js/runtime-main.6f57e014.js.map",
-    "static/js/2.754c059f.chunk.js": "/Midtown-Full-Stack-Employee-Directory/static/js/2.754c059f.chunk.js",
-    "static/js/2.754c059f.chunk.js.map": "/Midtown-Full-Stack-Employee-Directory/static/js/2.754c059f.chunk.js.map",
+    "static/js/2.843ba76b.chunk.js": "/Midtown-Full-Stack-Employee-Directory/static/js/2.843ba76b.chunk.js",
+    "static/js/2.843ba76b.chunk.js.map": "/Midtown-Full-Stack-Employee-Directory/static/js/2.843ba76b.chunk.js.map",
     "index.html": "/Midtown-Full-Stack-Employee-Directory/index.html",
-    "precache-manifest.2edb69e18b915763baff62d8a0c49d52.js": "/Midtown-Full-Stack-Employee-Directory/precache-manifest.2edb69e18b915763baff62d8a0c49d52.js",
+    "precache-manifest.e0a619bc804c216d833fc5c48be5b5a7.js": "/Midtown-Full-Stack-Employee-Directory/precache-manifest.e0a619bc804c216d833fc5c48be5b5a7.js",
     "service-worker.js": "/Midtown-Full-Stack-Employee-Directory/service-worker.js",
-    "static/css/main.5144ba18.chunk.css.map": "/Midtown-Full-Stack-Employee-Directory/static/css/main.5144ba18.chunk.css.map",
-    "static/js/2.754c059f.chunk.js.LICENSE.txt": "/Midtown-Full-Stack-Employee-Directory/static/js/2.754c059f.chunk.js.LICENSE.txt"
+    "static/css/main.9186a710.chunk.css.map": "/Midtown-Full-Stack-Employee-Directory/static/css/main.9186a710.chunk.css.map",
+    "static/js/2.843ba76b.chunk.js.LICENSE.txt": "/Midtown-Full-Stack-Employee-Directory/static/js/2.843ba76b.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.6f57e014.js",
-    "static/js/2.754c059f.chunk.js",
-    "static/css/main.5144ba18.chunk.css",
-    "static/js/main.964f813f.chunk.js"
+    "static/js/2.843ba76b.chunk.js",
+    "static/css/main.9186a710.chunk.css",
+    "static/js/main.6d85b325.chunk.js"
   ]
 }
