@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import Staff from './staff.json'
 
 export default class TableArea extends Component {
     state = {
@@ -8,23 +9,23 @@ export default class TableArea extends Component {
     };
     headings = ["name..."];
 
-    componentDidMount() {
-        fetch('/employees.json')
-        .then(function (response) {
-            return response.json();
-        })
-        
-        .then((response) => {
-            this.setState({
-                employees: response,
-                allEmployees: response,
-                isLoading: false,
-            });
-        })
-        .catch((error) => {
-            console.log(error);
-        });
-    }
+    // componentDidMount() {
+    //     fetch('/employees.json')
+    //     .then(function (response) {
+    //         return response.json();
+    //      })
+       
+    //     .then((response) => {
+    //         this.setState({
+    //             employees: response,
+    //             allEmployees: response,
+    //             isLoading: false,
+    //         });
+    //     })
+    //     .catch((error) => {
+    //         console.log(error);
+    //     });
+    // }
 
     handleDepartmentChange = (event) => {
         const department = event.target.value;
@@ -80,9 +81,9 @@ export default class TableArea extends Component {
     };
 
     render() {
-        if (this.state.isLoading === true) {
-            return <div>Loading...</div>;
-        }
+        // if (this.state.isLoading === true) {
+        //     return <div>Loading...</div>;
+        // }
         return (
             <div>
                <div>
@@ -136,7 +137,7 @@ export default class TableArea extends Component {
                         </tr>
                     </thead>
                     <tbody>
-                        {this.state.employees.map(function (employee) {
+                        {Staff.map(employee => {
                             return (
                                 <tr key={employee.id}>
                                     <td>{employee.id}</td>
