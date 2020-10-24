@@ -63,8 +63,8 @@ const getClassNamesFor = (name) => {
     return sortConfig.key === name ? sortConfig.direction : undefined;
 };
 return (
-
-    <table>
+  
+  <table>
     <thead>
     <tr>
         <th>
