@@ -7,14 +7,9 @@ table, th, td {
     border: 1px solid gray;
 }
 
-table {
-    width: 90%;
-    margin-left: 70px;
-    margin-top: 20px;
-}
-
 th {
     text-decoration: underline;
+    background-color: rgb(16, 36, 115);
 }
 
 h1 {
@@ -41,4 +36,62 @@ html{
 
 .Footer {
     margin-top: 30px;
+}
+
+table {
+    font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+    text-align: center;
+    width: 90%;
+    border-collapse: collapse;
+    margin-left: 70px;
+    margin-top: 20px;
+}
+
+thead th {
+    text-align: center;
+    border-bottom: 2px solid gray;
+}
+
+thead button {
+    border: 0;
+    border-radius: none;
+    font-family: inherit;
+    font-weight: 700;
+    font-size: inherit;
+    padding: 0.5em;
+    margin-bottom: 1px;
+    background-color: slategray;
+    color: white;
+}
+
+thead button.ascending::after {
+    content: '↓';
+    display: inline-block;
+    margin-left: 1em;
+}
+
+thead button.descending::after {
+    content: '↑';
+    display: inline-block;
+    margin-left: 1em;
+}
+
+tbody td {
+    padding: 0.5em;
+    border-bottom: 1px solid gray;
+}
+
+tbody tr:hover {
+    background-color: #eee;
+}
+
+.input {
+    border: 'solid';
+    border-radius: '10px';
+    position: 'relative';
+    margin-left: '100px';
+    height: '50px';
+    width: '200px';
+    margin-top: '200px';
+    margin-bottom: '200px'
 }
