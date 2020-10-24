@@ -1,25 +1,4 @@
-import React, { Component } from 'react';
-
-class Table extends Component {
-  state = { search: "" };
-  handleInputChange = event => {
-    this.setState({
-      search: event.target.value
-    });
-  };
-
-   constructor(){
-    super();
-
-    this.state={
-      search:null
-    };
-  }
-  searchSpace=(event)=>{
-    let keyword = event.target.value;
-    this.setState({search:keyword})
-  }
- }
+import React from 'react';
 
 const useSortableData = (employees, config = null) => {
 const [sortConfig, setSortConfig] = React.useState(config);
