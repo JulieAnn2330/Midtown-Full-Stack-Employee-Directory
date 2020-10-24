@@ -87,5 +87,4 @@ Please make sure to update tests as appropriate.</p><br>
 </html> 
 
 ![react-employee-directory](https://user-images.githubusercontent.com/64329660/97026573-2a226a00-151f-11eb-9e81-564e7b41cff4.PNG)
-![filter](https://user-images.githubusercontent.com/64329660/97026569-2989d380-151f-11eb-99e0-4e94de128ce9.PNG)
-![sort](https://user-images.githubusercontent.com/64329660/97026576-2a226a00-151f-11eb-8ee6-5bf6bab8a9bf.PNG)
+![image](https://user-images.githubusercontent.com/64329660/97088851-5dd1c280-15f9-11eb-92be-295c226bcd21.png)
